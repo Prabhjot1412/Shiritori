@@ -3,6 +3,7 @@ ROMANJI = [
             'ka', 'ki', 'ku', 'ke', 'ko',
             'sa', 'shi', 'su', 'se', 'so',
             'ta', 'chi', 'tsu', 'te', 'to',
+            'da', 'di', 'dtsu', 'de', 'do',
             'na', 'ni', 'nu', 'ne', 'no',
             'ha', 'hi', 'fu', 'he', 'ho',
             'ma', 'mi', 'mu', 'me', 'mo',
@@ -17,3 +18,5 @@ ROMANJI = [
             'kyo','kyu', 'ryo', 'ryu', 'chu', 'cho', 'sha','shu', 'sho', 'jyo', 'jyu', 'ja','ji',
             'wa', 'gyu', 'nyu'
           ]
+
+VOWELS = ['a', 'i', 'u', 'e', 'o',]

@@ -18,6 +18,7 @@ class Game
     @game_mode = game_mode
     @valid_words = @file_handler.lines.map {|line| line.split(',')[1]}
     @require_meaning_to_add_word = true
+    @skip_vowels = true # when this is present, shiyou can followed up by both 'u' and 'yo'
   end
 
   def handle_input(input, ai: false)
@@ -31,7 +32,7 @@ class Game
     return "incorrect format - string can't contain commas ','" if input.include?(',')
     return "incorrect format - '#{word}' doesn't end in Romanji" unless ends_in_romanji?(word)
     return game_over("The word '#{word}' have already been occoured") if @words_already_occoured.include?(word)
-    return "incorrect word - '#{word}' doesn't starts with #{ending_romanji(@words_already_occoured.last)}" unless @words_already_occoured.empty? || ending_romanji(@words_already_occoured.last) == starting_romanji(word) 
+    return "incorrect word - '#{word}' doesn't starts with #{ending_romanji(@words_already_occoured.last)}" unless @words_already_occoured.empty? || starts_with_correct_romanji(word)
 
     meaning = @file_handler.word_in_file?(word, return_meaning: true)
     msg = ", it means #{meaning.split(';').join(' or ')}" if meaning.is_a?(String) && meaning != ''
@@ -75,13 +76,30 @@ class Game
     ROMANJI.include?(input.split('').last(3).join) || ROMANJI.include?(input.split('').last(2).join) || ROMANJI.include?(input.split('').last)
   end
 
+  def starts_with_correct_romanji(word)
+    last_word = @words_already_occoured.last
+    last_word_ending_romanji = ending_romanji(last_word)
+    return true if last_word_ending_romanji == starting_romanji(word)
+    if @skip_vowels && VOWELS.include?(last_word_ending_romanji)
+      last_word = last_word.slice(0, last_word.length() -1) # removes last letter of the word, 'goi' becomes 'go'
+
+      if ends_in_romanji?(last_word) && ending_romanji(last_word) == starting_romanji(word)
+        return true
+      end
+    end
+
+    false
+  end
+
   def ending_romanji(word)
+    return word.split('').last(4).join if ROMANJI.include?(word.split('').last(4).join)
     return word.split('').last(3).join if ROMANJI.include?(word.split('').last(3).join)
     return word.split('').last(2).join if ROMANJI.include?(word.split('').last(2).join)
     word.split('').last
   end
 
   def starting_romanji(word)
+    return word.split('').first(4).join if ROMANJI.include?(word.split('').first(4).join)
     return word.split('').first(3).join if ROMANJI.include?(word.split('').first(3).join)
     return word.split('').first(2).join if ROMANJI.include?(word.split('').first(2).join)
     word.split('').first
@@ -141,9 +159,8 @@ class Game
 
   def possible_responses
     @valid_words.delete_if { |word| @words_already_occoured.include?(word)}
-    previous_words_ending_romanji = ending_romanji(@words_already_occoured.last)
     possible_responses = @valid_words.select do |word|
-      starting_romanji(word) == previous_words_ending_romanji
+      starts_with_correct_romanji(word)
     end
 
     possible_responses
