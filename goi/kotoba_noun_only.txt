@@ -1,0 +1,84 @@
+id,word,meaning,use_count
+1,hashi,bridge,1
+2,shichi,seven,3
+3,kutsu,shoes,1
+4,chikatetsu,subway,5
+5,tsuyosa,strength,2
+6,chizu,map,3
+7,zuru,cheating,5
+8,kabushiki,shares of a company,1
+9,kitana,type of sword,2
+10,chichi,papa,3
+11,tsuzuki,continuation,1
+12,nakimushi,crybaby,1
+13,kehai,aura,3
+14,ichi,one,2
+15,chi,blood,9
+16,tsunami,a very big tidal wave,2
+17,michi,path,2
+18,zu,diagram,2
+19,ki,tree,4
+20,shibire,numbness,1
+21,nana,seven,2
+22,sake,alcohol,1
+23,ichigo,strawberry,3
+24,gokai,misunderstanding,1
+25,go,five,8
+26,gokaku,passed (like in an exam),2
+27,tsuyogari,stubonness,7
+28,chibi,small,4
+29,kecchi,stingy,1
+30,mirai,future,1
+31,re,zero,1
+32,rezoko,refrigerator,1
+33,konbini,conveinience store,2
+34,niku,meat,1
+35,ringo,apple,3
+36,kuchi,mouth,2
+37,inazuke,fiance,1
+38,binbo,poor person,6
+39,boryoku,violence,1
+40,kutsushita,socks,1
+41,kenri,right (as in human rights),1
+42,kubi,neck,5
+43,bokensha,adventurer,2
+44,kitsune,fox,1
+45,neko,cat,2
+46,ni,two,2
+47,boku,I,3
+48,gyunyu,milk,1
+49,ikimono,living thing,1
+50,tako,octopus,2
+51,hi,fire,1
+52,hikari,light,1
+53,bochi,cemetery,1
+54,kudamono,fruit,1
+55,shakai,society,3
+56,ike,pound,1
+57,inochi,life,1
+58,nori,seaweed,1
+59,goi,vocabulary,2
+60,noriba,bus stop,1
+61,bakemono,monster,1
+62,haka,grave,1
+63,nagoya,city in japan,1
+64,yakuza,group of organized criminals,1
+65,gogo,evening,5
+66,risu,squirrel,1
+67,onigiri,riceball,1
+68,inazuma,lightning,1
+69,mazoku,monster;demon,2
+70,kekaku,plan,1
+71,gomi,trash,2
+72,mimi,ear,1
+73,mikata,ally,1
+74,kori,ice,1
+75,itami,pain,2
+76,ikebukuro,A city in japan,1
+77,yakisoba,a japanese dish,1
+78,nozomi,desire,1
+79,yoru,night,1
+80,sebiro,suit,1
+81,roku,six,1
+82,shihaisha,controller;conqueror,1
+83,kemuri,smoke,1

@@ -1,0 +1,245 @@
+id,word,meaning,use_count
+1,kuro,black,5
+2,makai,hell,4
+3,hai,yes;ash,1
+4,inochi,life,6
+5,chikatetsu,subway,6
+6,tsuzuki,continution,1
+7,kitanai,dirty,4
+8,itami,pain,13
+9,mimi,ear,9
+10,mirai,future,5
+11,suzushi,cool,1
+12,chisai,small,5
+13,sora,sky,3
+14,riso,ideal,6
+15,ranbo,rough;violent;reckless,5
+16,boryoku,violence,5
+17,kogeki,attack,2
+18,michibiki,guidance,2
+19,ichi,one,17
+20,tsuyoku,strong,7
+21,roku,six,6
+22,kimono,,1
+23,noboru,to climb,2
+24,rusu,to be absent,8
+25,sushi,,3
+26,shiro,white,4
+27,kuru,to come,5
+28,erabu,to choose ,1
+29,buki,weapon,1
+30,minikui,ugly,1
+31,chichioya,father,2
+32,yabai,bad situation,1
+33,chikai,close (distance),5
+34,chibi,small,10
+35,bimi,tasty,6
+36,mitome,to acknowledge,4
+37,megane,glasses,1
+38,nemui,sleepy,2
+39,megami,goddess,3
+40,ikinari,suddenly,3
+41,ruzai,exile,9
+42,rikai,to understand,11
+43,mimai,to check up on someone (ex. when they are sick),9
+44,mi,to see,10
+45,ima,now,2
+46,ika,less than,2
+47,kabushiki,stocks (from stockmarket),1
+48,nokori,leftover,5
+49,sobo,grandmother;grandma,4
+50,kurushimi,suffering,2
+51,shibaraku,for a while,3
+52,roka,hallway,7
+53,kibishi,strict,9
+54,mata,again,2
+55,takara,treasure,1
+56,boku,I;me,10
+57,kudaranai,pathetic,6
+58,mabushi,dazzling;blinding;glaring,1
+59,kire,pretty,3
+60,re,zero,5
+61,kitana,,4
+62,nana,seven,3
+63,narabu,line up,1
+64,kimazui,awkward,2
+65,chichi,,4
+66,ki,tree,7
+67,ikari,anger,6
+68,kyoryoku,cooperation,1
+69,sodate,to raise (ex. raising a child ),1
+70,tebukuro,gloves,1
+71,te,hand,3
+72,nezumi,mouse,1
+73,shiritori,,1
+74,sofu,grandfather,3
+75,fukai,deep,1
+76,chi,blood,14
+77,tsunami,,1
+78,subarashi,wonderful,5
+79,kunai,a type of weapon that ninjas use,8
+80,maru,circle,1
+81,iku,to come,5
+82,mizu,water,2
+83,zurui,unfair;cheating,8
+84,michi,path,5
+85,shimai,close;end,2
+86,kirai,don't like;hate,1
+87,baka,idiot;stupid,1
+88,ringo,apple,4
+89,go,five,6
+90,gokaku,pass (ex. in exam),3
+91,ririku,take off (like an aeroplane),5
+92,kaihatsu,development,1
+93,riyu,reason;purpose;cause,6
+94,yusha,hero,1
+95,iki,breath,6
+96,binbo,poor person,5
+97,gokai,misunderstanding,1
+98,minato,port ( like a sea port for ships ),4
+99,tonari,next to ( like a house next door ),1
+100,soncho,respect,3
+101,hohoemi,smile,1
+102,soto,outside,1
+103,majime,seriously,1
+104,minami,south,1
+105,kuchi,mouth,12
+106,goi,vocabulary,1
+107,fuku,clothes,1
+108,ryu,dragon,1
+109,yokai,a type of monster,1
+110,yama,mountain,1
+111,kurikaesu,repeat,2
+112,tenpura,a type of japanese food,1
+113,tate,shield,1
+114,tochaku,arrival,1
+115,shinu,to die,2
+116,nugu,take off (like taking off clothes or to undress),1
+117,chigau,wrong;incorrect,1
+118,uke,to receive,1
+119,keseki,absent (like absent in a class),1
+120,mamono,monster,2
+121,shinji,to trust,1
+122,kako,past,1
+123,kibo,hope,1
+124,biru,beer,4
+125,ijyo,greater than,1
+126,zenmetsu,extinct (all dead),1
+127,rezoko,refrigerator,1
+128,shito,jealousy,1
+129,jyoshiki,common sense,2
+130,naku,to cry,1
+131,shashyou,conductor ( like in train ),3
+132,kekaku,plan,3
+133,meshi,food,1
+134,iterashai,take care,1
+135,kuromaku,mastermind,1
+136,sumetai,cold,2
+137,makura,pillow,1
+138,bokensha,adventurer,4
+139,ushi,cow,1
+140,inazuma,lightning,3
+141,shakai,society,4
+142,kubi,neck,8
+143,chishiki,knowledge,2
+144,nakama,ally;friend,2
+145,iro,,4
+146,nuru,paint;varnish;plaster,2
+147,kizu,wound,2
+148,kori,ice,1
+149,kudamono,fruits,7
+151,keri,to kick,2
+152,ishi,will (as in will power),1
+153,gogo,evening,3
+154,tsugoi,,1
+155,jyokyo,,1
+156,makuro,,1
+157,kanja,patient (like in hospital),1
+158,mewaku,problem,1
+159,shinchou,height,1
+160,keshite,never,1
+161,shibire,numbness,3
+162,rekishi,history,2
+163,toki,time,3
+164,ichigo,strawberry,8
+165,kurayami,darkness,1
+166,iwa,rock,1
+167,tsuyosa,strength,2
+168,make,defeat,4
+169,tsumi,sin,1
+170,katana,a type of sword,2
+171,bukimi,creepy,3
+172,kipu,ticket,3
+173,kaminari,thunder;lighting,1
+174,ike,lake,9
+175,kutsu,shoes,2
+176,sakura,cherry blossom,1
+177,gomi,garbage,1
+178,nozomi,desire;wish,2
+179,urami,grudge,3
+180,shinzo,heart,2
+181,tomodachi,friend,1
+182,kechi,cheap or frugal person,1
+183,tsumaranai,boring,1
+184,mitsu,three things,1
+185,mazu,first of all,1
+186,imi,meaning,1
+187,tobira,door,1
+188,urusai,noisy,1
+189,mina,everyone,1
+190,chizu,map,3
+191,kutsujyoku,humiliation,1
+192,mahou,magic,1
+193,bikiri,suddenly,1
+194,kazu,number,1
+195,gochisou,feast,1
+196,kega,injury,1
+197,gakari,disappointment,1
+198,inaka,country side,2
+199,me,eyes,3
+200,shihai,to control,1
+201,watashi,i,1
+202,hikari,light,1
+203,shihaisha,controller,5
+204,usagi,rabbit,1
+205,gise,sacrifice,1
+206,neko,cat,1
+207,kutsushita,socks,1
+208,kachi,victory,2
+209,tabi,trip,2
+210,toke,cllock,1
+211,hi,fire,1
+212,rireki,personel history,6
+213,koko,here,2
+214,kuni,country,3
+215,ni,two,3
+216,nichijyou,daily life,1
+217,niku,meat,1
+218,romanji,japanese leters in english alphabets,1
+219,ji,handwriting,3
+220,jitensha,car;vehicle,1
+221,nibui,dull,1
+222,ikebukuro,a prefecture in japan,4
+223,chiryou,treatment,1
+224,kara,empty,2
+225,itsu,when,1
+226,uta,song,1
+227,kitai,expectation,1
+228,uchu,space,2
+229,chugakuse,middle school student,1
+230,sebiro,suit,3
+231,yube,last night,1
+232,bento,tiffin lunch,1
+233,kareshi,boyfriend,2
+234,yakisoba,a japanese food dish,2
+235,inu,dog,1
+236,tempura,a japanese dish,1
+237,renraku,to contact,2
+238,chokinbako,piggy bank,1
+239,kodomo,child,1
+240,monogatari,story,2
+241,mori,forest,1
+242,raishu,next week,1
+243,zu,diagram,2
+244,kagi,key,1
+245,ginko,bank,1
