@@ -19,6 +19,7 @@ class Game
     @valid_words = @file_handler.lines.map {|line| line.split(',')[1]}
     @require_meaning_to_add_word = true
     @skip_vowels = true # when this is present, shiyou can followed up by both 'u' and 'yo'
+    @add_words = true # allow adding words during game. format: word -m meaning of word
   end
 
   def handle_input(input, ai: false)
@@ -112,7 +113,10 @@ class Game
 
   def add_to_file(inputs)
     word = inputs[0].downcase
-    return update_meaning(inputs) if @file_handler.word_in_file?(word, increase_count_if_exists: true)
+    word_in_file = @file_handler.word_in_file?(word, increase_count_if_exists: true)
+
+    return update_meaning(inputs) if word_in_file
+    return "$error$No such word" unless @add_words
 
     meaning = extract_meaning(inputs)
     return "$error$Meaning is required for adding new words" if meaning.nil? && @require_meaning_to_add_word == true

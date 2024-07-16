@@ -44,7 +44,7 @@ id,word,meaning,use_count
 43,bokensha,adventurer,3
 44,kitsune,fox,2
 45,neko,cat,2
-46,ni,two,3
+46,ni,two,4
 47,boku,I,5
 48,gyunyu,milk,1
 49,ikimono,living thing,1
