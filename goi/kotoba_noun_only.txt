@@ -2,47 +2,47 @@ id,word,meaning,use_count
 1,hashi,bridge,1
 2,shichi,seven,3
 3,kutsu,shoes,1
-4,chikatetsu,subway,5
+4,chikatetsu,subway,6
 5,tsuyosa,strength,2
 6,chizu,map,3
-7,zuru,cheating,8
+7,zuru,cheating,9
 8,kabushiki,shares of a company,3
 9,kitana,type of sword,3
-10,chichi,papa,4
+10,chichi,papa,6
 11,tsuzuki,continuation,1
 12,nakimushi,crybaby,2
-13,kehai,aura,5
+13,kehai,aura,6
 14,ichi,one,2
 15,chi,blood,11
-16,tsunami,a very big tidal wave,2
+16,tsunami,a very big tidal wave,4
 17,michi,path,2
 18,zu,diagram,3
-19,ki,tree,6
+19,ki,tree,7
 20,shibire,numbness,1
-21,nana,seven,3
+21,nana,seven,5
 22,sake,alcohol,1
 23,ichigo,strawberry,3
 24,gokai,misunderstanding,1
 25,go,five,14
-26,gokaku,passed (like in an exam),3
-27,tsuyogari,stubonness,9
-28,chibi,small,5
+26,gokaku,passed (like in an exam),5
+27,tsuyogari,stubonness,11
+28,chibi,small,6
 29,kecchi,stingy,1
 30,mirai,future,3
 31,re,zero,1
 32,rezoko,refrigerator,1
-33,konbini,conveinience store,2
-34,niku,meat,1
+33,konbini,conveinience store,3
+34,niku,meat,2
 35,ringo,apple,3
-36,kuchi,mouth,6
+36,kuchi,mouth,8
 37,inazuke,fiance,1
-38,binbo,poor person,9
+38,binbo,poor person,10
 39,boryoku,violence,1
 40,kutsushita,socks,1
 41,kenri,right (as in human rights),1
 42,kubi,neck,8
 43,bokensha,adventurer,3
-44,kitsune,fox,1
+44,kitsune,fox,2
 45,neko,cat,2
 46,ni,two,3
 47,boku,I,5
@@ -51,20 +51,20 @@ id,word,meaning,use_count
 50,tako,octopus,2
 51,hi,fire,1
 52,hikari,light,1
-53,bochi,cemetery,2
+53,bochi,cemetery,3
 54,kudamono,fruit,1
 55,shakai,society,3
-56,ike,pound,1
+56,ike,pound,3
 57,inochi,life,1
 58,nori,seaweed,3
 59,goi,vocabulary,17
 60,noriba,bus stop,1
-61,bakemono,monster,1
+61,bakemono,monster,2
 62,haka,grave,1
 63,nagoya,city in japan,2
 64,yakuza,group of organized criminals,1
-65,gogo,evening,8
-66,risu,squirrel,1
+65,gogo,evening,9
+66,risu,squirrel,5
 67,onigiri,riceball,1
 68,inazuma,lightning,1
 69,mazoku,monster;demon,2
@@ -75,40 +75,61 @@ id,word,meaning,use_count
 74,kori,ice,1
 75,itami,pain,2
 76,ikebukuro,A city in japan,1
-77,yakisoba,a japanese dish,2
+77,yakisoba,a japanese dish,3
 78,nozomi,desire,1
 79,yoru,night,1
 80,sebiro,suit,1
 81,roku,six,3
-82,shihaisha,controller;conqueror,1
+82,shihaisha,controller;conqueror,2
 83,kemuri,smoke,1
 84,kokoro,heart,2
 85,shiritori,a japanese word game,1
-86,nikki,diary,1
-87,chii,status (in society),1
+86,nikki,diary,2
+87,chii,status (in society),4
 88,rooka,hallway,1
 89,baka,idiot,1
-90,kachi,victory,1
-91,kabe,wall,3
-92,nebiki,discount,1
-93,koko,here,1
+90,kachi,victory,2
+91,kabe,wall,5
+92,nebiki,discount,2
+93,koko,here,2
 94,yama,mountain,1
 95,tate,shield,1
 96,te,hands,1
 97,tebukuro,gloves,1
 98,bento,boxed lunch,1
 99,tori,bird,1
-100,raishu,next week,1
+100,raishu,next week,2
 101,shumoku,event,1
 102,tsunagari,connection,1
-103,kuro,black,1
-104,toki,time,1
-105,kinniku,muscle,1
-106,bimyou,subtle,1
-107,hebi,snake,1
+103,kuro,black,5
+104,toki,time,2
+105,kinniku,muscle,3
+106,bimyou,subtle,4
+107,hebi,snake,2
 108,kuni,country,1
 109,nichijyou,daily life,1
 110,shisai,priest,1
-111,kendo,a sword fighting technique,2
+111,kendo,a sword fighting technique,3
 112,hai,ashes,1
 113,doryoku,hard work,1
+114,kotoba,words,1
+115,kanji,feeling,1
+116,jisatsu,suicide,1
+117,kesatsu,police,2
+118,hasami,scissors,1
+119,dore,slave,1
+120,sumo,japanese wrestling sport,1
+121,mondai,problem,2
+122,sabishisa,lonelyness,1
+123,toke,watch,1
+124,chiryou,treatment,1
+125,kotae,answer,1
+126,gochisou,feast,1
+127,souzou,imagination,1
+128,undou,exercise,2
+129,ue,up;above,1
+130,rekishi,history,1
+131,shachou,boss,1
+132,uragirimono,traitor,1
+133,ushiro,behind,1
+134,tochi,land,1

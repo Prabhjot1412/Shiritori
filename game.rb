@@ -153,7 +153,6 @@ class Game
     end
 
     return '' unless responses.any?
-
     responses.sample
   end
 
