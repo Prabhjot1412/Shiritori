@@ -13,9 +13,9 @@ id,word,meaning,use_count
 12,nakimushi,crybaby,6
 13,kehai,aura,8
 14,ichi,one,4
-15,chi,blood,28
+15,chi,blood,29
 16,tsunami,a very big tidal wave,9
-17,michi,path,6
+17,michi,path,7
 18,zu,diagram,3
 19,ki,tree,20
 20,shibire,numbness,1
@@ -25,8 +25,8 @@ id,word,meaning,use_count
 24,gokai,misunderstanding,1
 25,go,five,17
 26,gokaku,passed (like in an exam),8
-27,tsuyogari,stubonness,20
-28,chibi,small,17
+27,tsuyogari,stubonness,21
+28,chibi,small,18
 29,kecchi,stingy,5
 30,mirai,future,6
 31,re,zero,5
@@ -41,7 +41,7 @@ id,word,meaning,use_count
 40,kutsushita,socks,1
 41,kenri,right (as in human rights),3
 42,kubi,neck,20
-43,bokensha,adventurer,11
+43,bokensha,adventurer,12
 44,kitsune,fox,2
 45,neko,cat,5
 46,ni,two,7
@@ -86,7 +86,7 @@ id,word,meaning,use_count
 85,shiritori,a japanese word game,4
 86,nikki,diary,3
 87,chii,status (in society),20
-88,rooka,hallway,10
+88,rooka,hallway,11
 89,baka,idiot,5
 90,kachi,victory,14
 91,kabe,wall,6
@@ -98,7 +98,7 @@ id,word,meaning,use_count
 97,tebukuro,gloves,6
 98,bento,boxed lunch,5
 99,tori,bird,2
-100,raishu,next week,17
+100,raishu,next week,18
 101,shumoku,event,2
 102,tsunagari,connection,6
 103,kuro,black,21
@@ -134,7 +134,7 @@ id,word,meaning,use_count
 133,ushiro,behind,2
 134,tochi,land,2
 135,tabi,trip;journey,2
-136,subete,everything,13
+136,subete,everything,14
 137,saikou,superb;awesome,1
 138,doro,road,2
 139,takasa,height,1
@@ -171,7 +171,7 @@ id,word,meaning,use_count
 170,hiza,knee,1
 171,mori,forest,2
 172,meshi,food,1
-173,ugoki,movement,12
+173,ugoki,movement,13
 174,kimono,a type of japanese dress,1
 175,me,eyes,2
 176,keri,kick,3
@@ -182,7 +182,7 @@ id,word,meaning,use_count
 181,tsuki,moon,1
 182,hime,princess,2
 183,ji,handwriting,3
-184,kimi,you,3
+184,kimi,you,4
 185,usagi,bunny,1
 186,gise,sacrifice,1
 187,kyokasho,textbook,1
@@ -213,4 +213,5 @@ id,word,meaning,use_count
 212,jinrui,humanity,1
 213,makai,hell;demon world,1
 214,kako,past,1
-215,soujiki,vaccum cleaner; cleaning machine,1
+215,soujiki,vacuum cleaner;cleaning machine,1
+216,kami,god,1

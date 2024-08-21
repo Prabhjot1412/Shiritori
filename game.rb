@@ -40,6 +40,7 @@ class Game
 
     if recorder_on? && !ai
       add_file = add_to_file(inputs)
+      return 'word not added' if add_file == 'word not added'
       return add_file.gsub('$error$', '') if add_file&.include?('$error')
       print add_file
     end
@@ -112,6 +113,8 @@ class Game
   end
 
   def add_to_file(inputs)
+    return 'word not added' if meaning_already_exists?(extract_meaning(inputs))
+
     word = inputs[0].downcase
     word_in_file = @file_handler.word_in_file?(word, increase_count_if_exists: true)
 
@@ -167,5 +170,34 @@ class Game
     end
 
     possible_responses
+  end
+
+  def meaning_already_exists?(meaning)
+    words_with_meaning = @file_handler.lines.select {|line| line.split(',')[2].split(';').include?(meaning) }
+    return false if words_with_meaning.empty?
+
+    unless words_with_meaning.empty?
+      words = words_with_meaning.map { |line| line.split(',')[1]}
+      permission = false
+
+      puts "this meaning already exists with #{words.join(', ')}. do you still wish to add it? y/yes or n/no"
+      print ' >>'
+      loop do
+        input = gets.chomp
+
+        if input == 'y' || input == 'yes'
+          permission = true
+          break
+        elsif input == 'n' || input == 'no'
+          permission = false
+          break
+        end
+
+        puts "options are 'y' or 'yes' and 'n' or 'no'"
+        print 'choice? >>'
+      end
+
+      !permission
+    end
   end
 end
