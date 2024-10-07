@@ -177,7 +177,7 @@ class Game
     return false if words_with_meaning.empty?
 
     unless words_with_meaning.empty?
-      words = words_with_meaning.map { |line| line.split(',')[1]}
+      words = words_with_meaning.map { |line| line.split(',')[1] }
       permission = false
 
       puts "this meaning already exists with #{words.join(', ')}. do you still wish to add it? y/yes or n/no"
