@@ -4,8 +4,8 @@ id,word,meaning,use_count
 3,kutsu,shoes,1
 4,chikatetsu,subway,15
 5,tsuyosa,strength,9
-6,chizu,map,6
-7,zuru,cheating,16
+6,chizu,map,7
+7,zuru,cheating,17
 8,kabushiki,shares of a company,5
 9,kitana,type of sword,9
 10,chichi,papa,12
@@ -13,14 +13,14 @@ id,word,meaning,use_count
 12,nakimushi,crybaby,10
 13,kehai,aura,8
 14,ichi,one,4
-15,chi,blood,33
-16,tsunami,a very big tidal wave,14
+15,chi,blood,34
+16,tsunami,a very big tidal wave,15
 17,michi,path,7
 18,zu,diagram,3
 19,ki,tree,21
 20,shibire,numbness,1
 21,nana,seven,13
-22,sake,alcohol,4
+22,sake,alcohol,5
 23,ichigo,strawberry,4
 24,gokai,misunderstanding,2
 25,go,five,17
@@ -43,7 +43,7 @@ id,word,meaning,use_count
 42,kubi,neck,23
 43,bokensha,adventurer,15
 44,kitsune,fox,2
-45,neko,cat,6
+45,neko,cat,7
 46,ni,two,7
 47,boku,I,8
 48,gyunyu,milk,1
@@ -80,12 +80,12 @@ id,word,meaning,use_count
 79,yoru,night,2
 80,sebiro,suit,1
 81,roku,six,5
-82,shihaisha,controller;conqueror,4
+82,shihaisha,controller;conqueror,5
 83,kemuri,smoke,1
 84,kokoro,heart,2
 85,shiritori,a japanese word game,4
 86,nikki,diary,4
-87,chii,status (in society),25
+87,chii,status (in society),26
 88,rooka,hallway,16
 89,baka,idiot,5
 90,kachi,victory,16
@@ -102,7 +102,7 @@ id,word,meaning,use_count
 101,shumoku,event,4
 102,tsunagari,connection,7
 103,kuro,black,25
-104,toki,time,2
+104,toki,time,3
 105,kinniku,muscle,7
 106,bimyou,subtle,7
 107,hebi,snake,3
@@ -118,7 +118,7 @@ id,word,meaning,use_count
 117,kesatsu,police,3
 118,hasami,scissors,2
 119,dore,slave,6
-120,sumo,japanese wrestling sport,10
+120,sumo,japanese wrestling sport,11
 121,mondai,problem,4
 122,sabishisa,lonelyness,4
 123,toke,watch,2
@@ -208,7 +208,7 @@ id,word,meaning,use_count
 207,kido,orbit,1
 208,ensoku,field trip,1
 209,shugyou,occupation;employment,1
-210,kareshi,boyfriend,5
+210,kareshi,boyfriend,6
 211,youji,infant,1
 212,jinrui,humanity,1
 213,makai,hell;demon world,3
@@ -218,14 +218,14 @@ id,word,meaning,use_count
 217,rieki,profits,3
 218,eki,train station,2
 219,sakana,fish,1
-220,dorobo,thief,2
+220,dorobo,thief,3
 221,kagami,mirror,3
-222,ikari,anger,1
+222,ikari,anger,2
 223,daitoryo,president,1
 224,ryori,cooking,2
 225,kinoko,mushroom,1
 226,minato,port,1
-227,dakishime,hug,1
+227,dakishime,hug,2
 228,ririku,take off,1
 229,koukai,regret,1
 230,kita,north,1

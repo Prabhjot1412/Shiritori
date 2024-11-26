@@ -150,17 +150,14 @@ class Game
   end
 
   def ai_response
-    responses = []
+    return '' unless possible_responses.any?
 
-    possible_responses.each do |word|
+    possible_responses.shuffle.each do |word|
       use_count = @file_handler.word_in_file?(word)
-      use_count.times do
-        responses << word
-      end
+      return word if rand(100) > use_count 
     end
 
-    return '' unless responses.any?
-    responses.sample
+    possible_responses.sample
   end
 
   def possible_responses
