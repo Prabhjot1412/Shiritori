@@ -7,7 +7,7 @@ class Game
   SINGLE = 'single'
   AI = 'ai'
   GAME_MODES = [SINGLE, AI]
-  
+
   def initialize(file_handler, game_mode: SINGLE)
     raise UnsupportedGameModeError, "#{game_mode} is not a valid game mode" unless GAME_MODES.include?(game_mode)
 
@@ -40,7 +40,7 @@ class Game
 
     if recorder_on? && !ai
       add_file = add_to_file(inputs)
-      return 'word not added' if add_file == 'word not added'
+      return add_file if add_file&.include?('word not added')
       return add_file.gsub('$error$', '') if add_file&.include?('$error')
       print add_file
     end
@@ -137,6 +137,7 @@ class Game
     (inputs.count - meaning_index).times do |i|
       meaning += inputs[meaning_index + i] + ' '
     end
+
     meaning[-1] = '' # removes extra space
     meaning
   end
@@ -145,19 +146,23 @@ class Game
     word = inputs[0]
     new_meaning = extract_meaning(inputs)
 
-    return unless new_meaning && @override_meaning
-    @file_handler.update_meaning(word, new_meaning, override: !!@override_meaning)
+    return unless new_meaning
+    if @override_meaning
+      @file_handler.update_meaning(word, new_meaning, override: !!@override_meaning)
+    else
+      "word not added: already exists!"
+    end
   end
 
   def ai_response
     return '' unless possible_responses.any?
 
-    possible_responses.shuffle.each do |word|
-      use_count = @file_handler.word_in_file?(word)
-      return word if rand(100) > use_count 
+    words = {}
+    possible_responses.each do |word|
+      words[word] = @file_handler.word_in_file?(word)
     end
 
-    possible_responses.sample
+    return words.max(4).sample[0]
   end
 
   def possible_responses
