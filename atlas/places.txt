@@ -1,19 +1,49 @@
 id,word,meaning,use_count
-1,india,country,3
-2,america,country,4
+1,india,country,5
+2,america,country,7
 3,australia,country,1
-4,antartica,continent,1
-5,assam,state,1
-6,africa,continent,1
+4,antartica,continent,2
+5,assam,state,7
+6,africa,continent,3
 7,andra pradesh,state,1
 8,indore,city,1
-9,himachal pradesh,state,1
-10,afghanistan,country,1
+9,himachal pradesh,state,4
+10,afghanistan,country,2
 11,meghalaya,state,1
-12,nagpur,city,1
-13,raipur,city,1
+12,nagpur,city,2
+13,raipur,city,4
 14,rajasthan,state,1
 15,russia,country,1
 16,mexico,country,1
 17,andaman and nicobar,union territory,1
 18,madhya pradesh,state,1
+19,hiroshima,city,3
+20,okinawa,city,1
+21,noida,city,1
+22,arunachal pradesh,state,5
+23,hawai,state,1
+24,aurangabad,city,4
+25,daman and diu,union territory,5
+26,uttar pradesh,state,1
+27,illinois,state,1
+28,hyderabad,city,2
+29,uttrakhand,state,2
+30,nagasaki,city,1
+31,switzerland,country,1
+32,uganda,country,2
+33,maharashtra,state,2
+34,darjeeling,city,4
+35,goa,state,2
+36,rome,city,2
+37,hungary,country,1
+38,norway,country,1
+39,odisha,state,1
+40,deheradun,city,1
+41,england,state,1
+42,asia,continent,1
+43,gurgoan,city,1
+44,yugoslavia,country,1
+45,germany,country,1
+46,yakushima,town,1
+47,himalaya,mountain,1
+1,dhaka,city,1

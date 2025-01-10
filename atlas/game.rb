@@ -6,20 +6,27 @@ class Game
     @valid_places = @file_handler.lines.map {|line| line.split(',')[1]}
     @add_places = true # allow adding places during game. format: place -m meaning of place
     @require_meaning_to_add_place = true
+    @valid_place_types = ['continent', 'country', 'state', 'union territory', 'city', 'town', 'mountain']
+    @debug_mode = true
+
+    @difficulty = 100 # player wins after this many correct answers
   end
 
   def handle_input(input, ai: false)
     inputs = input.split('-m').map  { |word| remove_extra_spaces(word) }
     place = inputs[0]&.downcase
+    place_type = inputs[1]&.downcase
 
+    return "invalid type of place. Valid types are: #{@valid_place_types.join(', ')}" unless place_type.nil? || @valid_place_types.include?(place_type)
     return game_over("you have exited the game") if place == 'exit'
-    return "$win$ Victory is yours, there are no words that I can think of that starts with #{@places_already_occoured.last.split('').last}" if place.nil? && ai
+    return "$win$ Victory is yours, there are no places that I can think of that starts with #{@places_already_occoured.last.split('').last}" if place.nil? && ai
+    return "$win$ Victory is yours, you have successfully lasted for #{@difficulty} no. of turns" if ( @places_already_occoured.length >= @difficulty * 2 )
     return "incorrect format - empty string" if place.nil? || place == ''
     return "incorrect format - string can't contain commas ','" if input.include?(',')
     return game_over("The place '#{place}' have already been occoured") if @places_already_occoured.include?(place)
     return "incorrect place - '#{place}' doesn't starts with #{@places_already_occoured.last.split('').last}" unless @places_already_occoured.empty? || starts_with_correct_letter(place)
 
-    meaning = @file_handler.word_in_file?(place, return_meaning: true)
+    meaning = @file_handler.word_in_file?(place, return_meaning: true, increase_count_if_exists: !ai)
     msg = ", it is a #{meaning}" if meaning.is_a?(String) && meaning != ''
 
     if @recorder && !meaning && !ai
@@ -35,11 +42,14 @@ class Game
     return "I will go with #{place.capitalize}#{msg}" if ai
 
     "previous place was #{place.capitalize}#{msg}"
+  rescue StandardError => e
+    debugger if @debug_mode
+    raise
   end
 
   def add_to_file(inputs)
     place = inputs[0].downcase
-    place_in_file = @file_handler.word_in_file?(place, increase_count_if_exists: true)
+    place_in_file = @file_handler.word_in_file?(place)
 
     return "$error$No such place" unless @add_places
 
