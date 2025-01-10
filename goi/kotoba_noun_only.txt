@@ -56,7 +56,7 @@ id,word,meaning,use_count
 55,shakai,society,18
 56,ike,pound,6
 57,inochi,life,1
-58,nori,seaweed,19
+58,nori,seaweed,21
 59,goi,vocabulary,18
 60,noriba,bus stop,1
 61,bakemono,monster,2
@@ -64,7 +64,7 @@ id,word,meaning,use_count
 63,nagoya,city in japan,2
 64,yakuza,group of organized criminals,1
 65,gogo,evening,25
-66,risu,squirrel,21
+66,risu,squirrel,22
 67,onigiri,riceball,1
 68,inazuma,lightning,8
 69,mazoku,monster;demon,2
@@ -86,7 +86,7 @@ id,word,meaning,use_count
 85,shiritori,a japanese word game,4
 86,nikki,diary,4
 87,chii,status (in society),28
-88,rooka,hallway,20
+88,rooka,hallway,21
 89,baka,idiot,5
 90,kachi,victory,17
 91,kabe,wall,9
@@ -98,10 +98,10 @@ id,word,meaning,use_count
 97,tebukuro,gloves,7
 98,bento,boxed lunch,8
 99,tori,bird,2
-100,raishu,next week,25
-101,shumoku,event,5
+100,raishu,next week,27
+101,shumoku,event,6
 102,tsunagari,connection,7
-103,kuro,black,27
+103,kuro,black,28
 104,toki,time,3
 105,kinniku,muscle,7
 106,bimyou,subtle,7
@@ -134,7 +134,7 @@ id,word,meaning,use_count
 133,ushiro,behind,2
 134,tochi,land,3
 135,tabi,trip;journey,2
-136,subete,everything,19
+136,subete,everything,21
 137,saikou,superb;awesome,1
 138,doro,road,2
 139,takasa,height,1
@@ -145,9 +145,9 @@ id,word,meaning,use_count
 144,tatemono,building,1
 145,kunai,a type of weapon,5
 146,jyoushiki,common sense,3
-147,tera,temple,2
+147,tera,temple,3
 148,shumatsu,weekends,1
-149,riyu,cause;reason,13
+149,riyu,cause;reason,14
 150,yuri,lily,2
 151,yokai,type of monster,2
 152,senkyo,election,1
@@ -155,7 +155,7 @@ id,word,meaning,use_count
 154,daigaku,university,3
 155,dokutsu,cave,2
 156,nabe,pot,8
-157,kaimono,shopping,2
+157,kaimono,shopping,3
 158,bengoshi,lawyer,2
 159,danshi,boy,1
 160,tsuko,traffic,1
@@ -171,7 +171,7 @@ id,word,meaning,use_count
 170,hiza,knee,1
 171,mori,forest,3
 172,meshi,food,1
-173,ugoki,movement,14
+173,ugoki,movement,15
 174,kimono,a type of japanese dress,1
 175,me,eyes,2
 176,keri,kick,3
@@ -254,6 +254,6 @@ id,word,meaning,use_count
 253,minikui,ugly,2
 254,nioi,smell,1
 255,tatoe,example,1
-256,kiri,fog,1
+256,kiri,fog,2
 257,mizumi,lake,1
 258,jinja,shrine,2

@@ -20,3 +20,16 @@ def get_game_mode
 
   game_mode
 end
+
+def check_chance(chance_percentage)
+  return true if rand(1..100) <= chance_percentage
+
+  false
+end
+
+def remove_extra_spaces(word) # ' abc def ' => 'abc def'
+  word[0] = '' if word[0] == ' '
+  word[-1] = '' if word[-1] == ' '
+
+  word
+end

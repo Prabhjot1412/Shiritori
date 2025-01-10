@@ -1,0 +1,19 @@
+id,word,meaning,use_count
+1,india,country,3
+2,america,country,4
+3,australia,country,1
+4,antartica,continent,1
+5,assam,state,1
+6,africa,continent,1
+7,andra pradesh,state,1
+8,indore,city,1
+9,himachal pradesh,state,1
+10,afghanistan,country,1
+11,meghalaya,state,1
+12,nagpur,city,1
+13,raipur,city,1
+14,rajasthan,state,1
+15,russia,country,1
+16,mexico,country,1
+17,andaman and nicobar,union territory,1
+18,madhya pradesh,state,1

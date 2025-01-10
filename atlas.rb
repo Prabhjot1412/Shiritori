@@ -1,30 +1,15 @@
 require_relative 'file_handler'
-require_relative 'romanji'
-require_relative 'game'
 require_relative 'helper'
+require_relative 'atlas/game'
 
 require 'debug'
 
-Config = {
-           game_mode: Game::SINGLE,
-           type: :NounOnly # :all, :NounOnly
-         }
-
-file_path = 'goi/kotoba.txt'
-
-case Config[:type]
-when :NounOnly
-  file_path = "goi/kotoba_noun_only.txt"
-end
-
-
+file_path = 'atlas/places.txt'
 file_handler = FileHandler.new(file_path)
 
-game = Game.new(file_handler,game_mode: Config[:game_mode])#, game_mode: get_game_mode)
-
-ai_first_turn = check_chance(50) if game.game_mode == Game::AI
-
-print 'First Word >> ' if ai_first_turn.nil? || !ai_first_turn
+game = Game.new(file_handler)
+ai_first_turn = check_chance(50)
+print "First place >> " unless ai_first_turn
 print game.ai_first_turn if ai_first_turn
 
 loop do
@@ -34,7 +19,7 @@ loop do
   if input == 'q'
     break
   elsif input == ''
-    print 'word? >>'
+    print 'place? >>'
     next
   else
     output = game.handle_input(input)
