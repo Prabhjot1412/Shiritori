@@ -13,7 +13,7 @@ class Game
   end
 
   def handle_input(input, ai: false)
-    inputs = input.split('-m').map  { |word| remove_extra_spaces(word) }
+    inputs = input.split('-m').map { |word| remove_extra_spaces(word) }
     place = inputs[0]&.downcase
     place_type = inputs[1]&.downcase
 

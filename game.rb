@@ -162,7 +162,7 @@ class Game
       words[word] = @file_handler.word_in_file?(word)
     end
 
-    return words.max(4).sample[0]
+    return words.invert.max(3).sample[1]
   end
 
   def possible_responses

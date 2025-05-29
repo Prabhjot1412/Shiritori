@@ -1,49 +1,74 @@
 id,word,meaning,use_count
-1,india,country,5
-2,america,country,7
-3,australia,country,1
-4,antartica,continent,2
-5,assam,state,7
-6,africa,continent,3
-7,andra pradesh,state,1
-8,indore,city,1
-9,himachal pradesh,state,4
-10,afghanistan,country,2
-11,meghalaya,state,1
-12,nagpur,city,2
-13,raipur,city,4
+1,india,country,10
+2,america,country,18
+3,australia,country,3
+4,antartica,continent,6
+5,assam,state,12
+6,africa,continent,11
+7,andra pradesh,state,4
+8,indore,city,2
+9,himachal pradesh,state,10
+10,afghanistan,country,3
+11,meghalaya,state,4
+12,nagpur,city,6
+13,raipur,city,7
 14,rajasthan,state,1
-15,russia,country,1
+15,russia,country,4
 16,mexico,country,1
-17,andaman and nicobar,union territory,1
+17,andaman and nicobar,union territory,8
 18,madhya pradesh,state,1
-19,hiroshima,city,3
+19,hiroshima,city,4
 20,okinawa,city,1
 21,noida,city,1
-22,arunachal pradesh,state,5
+22,arunachal pradesh,state,8
 23,hawai,state,1
-24,aurangabad,city,4
-25,daman and diu,union territory,5
-26,uttar pradesh,state,1
+24,aurangabad,city,6
+25,daman and diu,union territory,11
+26,uttar pradesh,state,3
 27,illinois,state,1
-28,hyderabad,city,2
-29,uttrakhand,state,2
-30,nagasaki,city,1
-31,switzerland,country,1
-32,uganda,country,2
-33,maharashtra,state,2
-34,darjeeling,city,4
-35,goa,state,2
-36,rome,city,2
-37,hungary,country,1
-38,norway,country,1
-39,odisha,state,1
-40,deheradun,city,1
-41,england,state,1
+28,hyderabad,city,9
+29,uttrakhand,state,3
+30,nagasaki,city,6
+31,switzerland,country,4
+32,uganda,country,3
+33,maharashtra,state,4
+34,darjeeling,city,6
+35,goa,state,9
+36,rome,city,3
+37,hungary,country,2
+38,norway,country,5
+39,odisha,state,2
+40,deheradun,city,5
+41,england,state,5
 42,asia,continent,1
 43,gurgoan,city,1
-44,yugoslavia,country,1
+44,yugoslavia,country,6
 45,germany,country,1
-46,yakushima,town,1
+46,yakushima,town,2
 47,himalaya,mountain,1
-1,dhaka,city,1
+48,dhaka,city,3
+49,detroit,city,1
+50,thailand,country,5
+51,ukraine,country,1
+52,egypt,country,4
+53,amritsar,city,5
+54,tamil nadu,state,2
+55,haryana,state,2
+56,abu dhabi,city,3
+57,amsterdam,city,2
+58,nashik,city,2
+59,ahmedabad,city,1
+60,yemen,country,1
+62,oklahoma,city,1
+62,austria,country,1
+63,romania,country,1
+64,new york,state,1
+65,allahabad,city,2
+66,idaho,state,1
+67,nagaland,state,2
+68,nagoya,city,1
+69,michigan,state,1
+70,kerela,state,1
+71,uttarakhand,state,1
+72,taiwan,country,1
+73,dispur,city,1

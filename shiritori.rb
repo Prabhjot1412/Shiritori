@@ -6,7 +6,7 @@ require_relative 'helper'
 require 'debug'
 
 Config = {
-           game_mode: Game::SINGLE,
+           game_mode: Game::AI,
            type: :NounOnly # :all, :NounOnly
          }
 
@@ -16,7 +16,6 @@ case Config[:type]
 when :NounOnly
   file_path = "goi/kotoba_noun_only.txt"
 end
-
 
 file_handler = FileHandler.new(file_path)
 

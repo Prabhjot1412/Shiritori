@@ -1,6 +1,6 @@
 id,word,meaning,use_count
 1,hashi,bridge,1
-2,shichi,seven,12
+2,shichi,seven,13
 3,kutsu,shoes,1
 4,chikatetsu,subway,15
 5,tsuyosa,strength,10
@@ -13,68 +13,68 @@ id,word,meaning,use_count
 12,nakimushi,crybaby,11
 13,kehai,aura,8
 14,ichi,one,4
-15,chi,blood,40
-16,tsunami,a very big tidal wave,16
-17,michi,path,9
-18,zu,diagram,4
-19,ki,tree,27
+15,chi,blood,41
+16,tsunami,a very big tidal wave,17
+17,michi,path,10
+18,zu,diagram,5
+19,ki,tree,28
 20,shibire,numbness,1
-21,nana,seven,15
+21,nana,seven,17
 22,sake,alcohol,6
-23,ichigo,strawberry,6
-24,gokai,misunderstanding,3
-25,go,five,17
+23,ichigo,strawberry,11
+24,gokai,misunderstanding,6
+25,go,five,18
 26,gokaku,passed (like in an exam),9
-27,tsuyogari,stubonness,29
+27,tsuyogari,stubonness,30
 28,chibi,small,21
-29,kecchi,stingy,10
-30,mirai,future,11
+29,kecchi,stingy,11
+30,mirai,future,13
 31,re,zero,5
 32,rezoko,refrigerator,2
 33,konbini,conveinience store,7
 34,niku,meat,3
 35,ringo,apple,9
-36,kuchi,mouth,23
+36,kuchi,mouth,26
 37,inazuke,fiance,6
-38,binbo,poor person,21
+38,binbo,poor person,22
 39,boryoku,violence,1
 40,kutsushita,socks,1
 41,kenri,right (as in human rights),3
-42,kubi,neck,27
-43,bokensha,adventurer,16
+42,kubi,neck,30
+43,bokensha,adventurer,17
 44,kitsune,fox,3
 45,neko,cat,7
 46,ni,two,8
 47,boku,I,10
 48,gyunyu,milk,1
 49,ikimono,living thing,2
-50,tako,octopus,6
+50,tako,octopus,7
 51,hi,fire,1
 52,hikari,light,1
 53,bochi,cemetery,6
-54,kudamono,fruit,7
-55,shakai,society,19
-56,ike,pound,6
+54,kudamono,fruit,8
+55,shakai,society,21
+56,ike,pound,7
 57,inochi,life,1
-58,nori,seaweed,22
+58,nori,seaweed,24
 59,goi,vocabulary,18
 60,noriba,bus stop,1
 61,bakemono,monster,2
 62,haka,grave,1
 63,nagoya,city in japan,2
 64,yakuza,group of organized criminals,1
-65,gogo,evening,25
-66,risu,squirrel,23
+65,gogo,evening,28
+66,risu,squirrel,26
 67,onigiri,riceball,1
-68,inazuma,lightning,8
+68,inazuma,lightning,10
 69,mazoku,monster;demon,2
 70,kekaku,plan,10
 71,gomi,trash,9
-72,mimi,ear,9
+72,mimi,ear,12
 73,mikata,ally,2
 74,kori,ice,6
 75,itami,pain,4
-76,ikebukuro,A city in japan,3
+76,ikebukuro,A city in japan,4
 77,yakisoba,a japanese dish,6
 78,nozomi,desire,1
 79,yoru,night,3
@@ -85,23 +85,23 @@ id,word,meaning,use_count
 84,kokoro,heart,2
 85,shiritori,a japanese word game,4
 86,nikki,diary,4
-87,chii,status (in society),29
-88,rooka,hallway,22
-89,baka,idiot,5
+87,chii,status (in society),30
+88,rooka,hallway,24
+89,baka,idiot,6
 90,kachi,victory,17
 91,kabe,wall,9
-92,nebiki,discount,10
+92,nebiki,discount,11
 93,koko,here,4
 94,yama,mountain,2
 95,tate,shield,1
 96,te,hands,6
 97,tebukuro,gloves,7
-98,bento,boxed lunch,8
-99,tori,bird,2
-100,raishu,next week,27
+98,bento,boxed lunch,9
+99,tori,bird,3
+100,raishu,next week,28
 101,shumoku,event,6
 102,tsunagari,connection,7
-103,kuro,black,28
+103,kuro,black,31
 104,toki,time,3
 105,kinniku,muscle,7
 106,bimyou,subtle,7
@@ -118,36 +118,36 @@ id,word,meaning,use_count
 117,kesatsu,police,3
 118,hasami,scissors,2
 119,dore,slave,7
-120,sumo,japanese wrestling sport,11
-121,mondai,problem,5
+120,sumo,japanese wrestling sport,12
+121,mondai,problem,6
 122,sabishisa,lonelyness,5
 123,toke,watch,2
 124,chiryou,treatment,9
 125,kotae,answer,2
 126,gochisou,feast,5
 127,souzou,imagination,1
-128,undou,exercise,13
+128,undou,exercise,17
 129,ue,up;above,2
 130,rekishi,history,2
 131,shachou,boss,6
-132,uragirimono,traitor,7
+132,uragirimono,traitor,9
 133,ushiro,behind,2
 134,tochi,land,4
-135,tabi,trip;journey,2
+135,tabi,trip;journey,5
 136,subete,everything,22
 137,saikou,superb;awesome,1
 138,doro,road,2
 139,takasa,height,1
 140,ketai,cell phone,1
-141,rodosha,worker,5
-142,shi,death,7
+141,rodosha,worker,6
+142,shi,death,10
 143,tsumi,sin,2
 144,tatemono,building,1
 145,kunai,a type of weapon,5
 146,jyoushiki,common sense,3
 147,tera,temple,3
-148,shumatsu,weekends,1
-149,riyu,cause;reason,15
+148,shumatsu,weekends,2
+149,riyu,cause;reason,18
 150,yuri,lily,2
 151,yokai,type of monster,2
 152,senkyo,election,1
@@ -159,29 +159,29 @@ id,word,meaning,use_count
 158,bengoshi,lawyer,2
 159,danshi,boy,1
 160,tsuko,traffic,1
-161,teki,enemy,7
+161,teki,enemy,8
 162,kakugo,resolve,4
-163,yusha,hero,9
+163,yusha,hero,10
 164,make,loss;defeat,5
 165,koi,love,2
 166,kushi,comb,1
 167,tsubasa,wings,5
-168,same,shark,3
+168,same,shark,4
 169,megami,godess,2
 170,hiza,knee,1
-171,mori,forest,3
+171,mori,forest,4
 172,meshi,food,1
-173,ugoki,movement,15
+173,ugoki,movement,18
 174,kimono,a type of japanese dress,1
 175,me,eyes,2
-176,keri,kick,3
+176,keri,kick,4
 177,hachi,bee,3
 178,bimi,good flavour,8
 179,yuki,snow,3
 180,romanji,japanese pronounciation in english alphabets,5
 181,tsuki,moon,1
 182,hime,princess,3
-183,ji,handwriting,6
+183,ji,handwriting,8
 184,kimi,you,4
 185,usagi,bunny,1
 186,gise,sacrifice,1
@@ -190,7 +190,7 @@ id,word,meaning,use_count
 189,kaikaku,reform,1
 190,entotsu,chimney,2
 191,kaifuku,recovery,1
-192,shiro,white,4
+192,shiro,white,5
 193,kuruma,car,2
 194,sushi,a japanese food item,1
 195,shika,deer,3
@@ -208,10 +208,10 @@ id,word,meaning,use_count
 207,kido,orbit,1
 208,ensoku,field trip,1
 209,shugyou,occupation;employment,1
-210,kareshi,boyfriend,7
+210,kareshi,boyfriend,8
 211,youji,infant,1
 212,jinrui,humanity,1
-213,makai,hell;demon world,6
+213,makai,hell;demon world,8
 214,kako,past,1
 215,soujiki,vacuum cleaner;cleaning machine,1
 216,kami,god,1
@@ -220,26 +220,26 @@ id,word,meaning,use_count
 219,sakana,fish,1
 220,dorobo,thief,4
 221,kagami,mirror,4
-222,ikari,anger,2
+222,ikari,anger,3
 223,daitoryo,president,1
 224,ryori,cooking,3
 225,kinoko,mushroom,1
-226,minato,port,2
+226,minato,port,4
 227,dakishime,hug,2
-228,ririku,take off,1
+228,ririku,take off,2
 229,koukai,regret,1
 230,kita,north,2
 231,nakama,ally,3
-232,miryoku,charm,4
+232,miryoku,charm,6
 233,nomimono,drink,1
 234,mahou,magic,1
 235,giri,obligation,1
 236,kuromaku,mastermind,1
-237,rubi,ruby,2
+237,rubi,ruby,3
 238,sonzai,existence,1
-239,rui,kind ( as in humankind ),2
+239,rui,kind ( as in humankind ),3
 240,sara,plate,1
-241,ase,sweat,1
+241,ase,sweat,2
 242,koshi,lower back,1
 243,machi,town,2
 244,hoteru,hotel,1
@@ -260,3 +260,15 @@ id,word,meaning,use_count
 259,kibo,hope,1
 260,ito,thread,1
 261,tezukuri,handmade,1
+262,mamono,monster,1
+263,tsuma,wife,1
+264,ongaku,music,1
+265,imi,meaning,1
+266,kutsujoku,humiliation,1
+267,kagi,key,1
+268,kuzu,scum,1
+269,jagaimo,potato,1
+270,tobira,door,1
+271,kinzoku,metal,1
+272,karage,fried chicken,1
+273,inu,dog,1
