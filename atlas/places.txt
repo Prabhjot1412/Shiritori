@@ -1,57 +1,57 @@
 id,word,meaning,use_count
-1,india,country,10
-2,america,country,18
-3,australia,country,3
-4,antartica,continent,6
+1,india,country,12
+2,america,country,20
+3,australia,country,4
+4,antartica,continent,7
 5,assam,state,12
-6,africa,continent,11
+6,africa,continent,12
 7,andra pradesh,state,4
 8,indore,city,2
 9,himachal pradesh,state,10
-10,afghanistan,country,3
-11,meghalaya,state,4
+10,afghanistan,country,4
+11,meghalaya,state,6
 12,nagpur,city,6
-13,raipur,city,7
+13,raipur,city,9
 14,rajasthan,state,1
 15,russia,country,4
 16,mexico,country,1
 17,andaman and nicobar,union territory,8
-18,madhya pradesh,state,1
+18,madhya pradesh,state,2
 19,hiroshima,city,4
 20,okinawa,city,1
 21,noida,city,1
-22,arunachal pradesh,state,8
+22,arunachal pradesh,state,9
 23,hawai,state,1
 24,aurangabad,city,6
-25,daman and diu,union territory,11
+25,daman and diu,union territory,12
 26,uttar pradesh,state,3
 27,illinois,state,1
-28,hyderabad,city,9
+28,hyderabad,city,10
 29,uttrakhand,state,3
 30,nagasaki,city,6
 31,switzerland,country,4
-32,uganda,country,3
-33,maharashtra,state,4
+32,uganda,country,4
+33,maharashtra,state,5
 34,darjeeling,city,6
-35,goa,state,9
+35,goa,state,10
 36,rome,city,3
 37,hungary,country,2
 38,norway,country,5
 39,odisha,state,2
 40,deheradun,city,5
-41,england,state,5
+41,england,state,6
 42,asia,continent,1
 43,gurgoan,city,1
 44,yugoslavia,country,6
 45,germany,country,1
 46,yakushima,town,2
 47,himalaya,mountain,1
-48,dhaka,city,3
-49,detroit,city,1
+48,dhaka,city,4
+49,detroit,city,2
 50,thailand,country,5
 51,ukraine,country,1
-52,egypt,country,4
-53,amritsar,city,5
+52,egypt,country,5
+53,amritsar,city,6
 54,tamil nadu,state,2
 55,haryana,state,2
 56,abu dhabi,city,3
@@ -60,15 +60,18 @@ id,word,meaning,use_count
 59,ahmedabad,city,1
 60,yemen,country,1
 62,oklahoma,city,1
-62,austria,country,1
+62,austria,country,2
 63,romania,country,1
 64,new york,state,1
 65,allahabad,city,2
 66,idaho,state,1
-67,nagaland,state,2
+67,nagaland,state,3
 68,nagoya,city,1
 69,michigan,state,1
 70,kerela,state,1
 71,uttarakhand,state,1
 72,taiwan,country,1
 73,dispur,city,1
+74,dewas,city,1
+75,hawaii,state,1
+76,europe,continent,1
