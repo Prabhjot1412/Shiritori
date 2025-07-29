@@ -50,23 +50,12 @@ class FileHandler
     current_use_count
   end
 
-  def ascending_id
-    (@lines.last.split(',')[0].to_i + 1).to_s
-  end
-
   def increase_use_count(word)
     line_words = @lines.map {|line| line.split(',')[1]}
     index = line_words.index(word)
     line = @lines[index].split(',')
     line[3] = (line[3].to_i + 1).to_s
     @lines[index] = line.join(',')
-  end
-
-  def delete_word(word)
-    file_overwriter = open_file('w')
-    @lines.delete(word + "\n")
-    file_overwriter.syswrite(@lines.join(''))
-    file_overwriter.close()
   end
 
   def close

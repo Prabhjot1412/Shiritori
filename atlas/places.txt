@@ -1,45 +1,45 @@
 id,word,meaning,use_count
-1,india,country,12
-2,america,country,20
-3,australia,country,4
-4,antartica,continent,7
-5,assam,state,12
-6,africa,continent,12
+1,india,country,13
+2,america,country,23
+3,australia,country,5
+4,antartica,continent,8
+5,assam,state,13
+6,africa,continent,15
 7,andra pradesh,state,4
 8,indore,city,2
 9,himachal pradesh,state,10
-10,afghanistan,country,4
-11,meghalaya,state,6
-12,nagpur,city,6
-13,raipur,city,9
+10,afghanistan,country,5
+11,meghalaya,state,8
+12,nagpur,city,8
+13,raipur,city,11
 14,rajasthan,state,1
 15,russia,country,4
 16,mexico,country,1
-17,andaman and nicobar,union territory,8
+17,andaman and nicobar,union territory,10
 18,madhya pradesh,state,2
 19,hiroshima,city,4
 20,okinawa,city,1
 21,noida,city,1
-22,arunachal pradesh,state,9
+22,arunachal pradesh,state,10
 23,hawai,state,1
 24,aurangabad,city,6
-25,daman and diu,union territory,12
+25,daman and diu,union territory,13
 26,uttar pradesh,state,3
 27,illinois,state,1
-28,hyderabad,city,10
+28,hyderabad,city,12
 29,uttrakhand,state,3
 30,nagasaki,city,6
 31,switzerland,country,4
 32,uganda,country,4
 33,maharashtra,state,5
 34,darjeeling,city,6
-35,goa,state,10
+35,goa,state,11
 36,rome,city,3
 37,hungary,country,2
 38,norway,country,5
-39,odisha,state,2
-40,deheradun,city,5
-41,england,state,6
+39,odisha,state,3
+40,deheradun,city,8
+41,england,state,9
 42,asia,continent,1
 43,gurgoan,city,1
 44,yugoslavia,country,6
@@ -48,14 +48,14 @@ id,word,meaning,use_count
 47,himalaya,mountain,1
 48,dhaka,city,4
 49,detroit,city,2
-50,thailand,country,5
+50,thailand,country,6
 51,ukraine,country,1
-52,egypt,country,5
-53,amritsar,city,6
+52,egypt,country,6
+53,amritsar,city,7
 54,tamil nadu,state,2
 55,haryana,state,2
 56,abu dhabi,city,3
-57,amsterdam,city,2
+57,amsterdam,city,3
 58,nashik,city,2
 59,ahmedabad,city,1
 60,yemen,country,1
@@ -63,15 +63,22 @@ id,word,meaning,use_count
 62,austria,country,2
 63,romania,country,1
 64,new york,state,1
-65,allahabad,city,2
+65,allahabad,city,3
 66,idaho,state,1
 67,nagaland,state,3
 68,nagoya,city,1
 69,michigan,state,1
-70,kerela,state,1
+70,kerela,state,3
 71,uttarakhand,state,1
 72,taiwan,country,1
 73,dispur,city,1
 74,dewas,city,1
-75,hawaii,state,1
-76,europe,continent,1
+75,hawaii,state,2
+76,europe,continent,2
+77,karnataka,state,1
+78,rio de janeiro,city,2
+79,sendai,city,1
+80,agra,city,2
+81,denmark,country,1
+82,ajmer,city,2
+83,tennessee,state,2
