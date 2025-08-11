@@ -1,61 +1,61 @@
 id,word,meaning,use_count
-1,india,country,13
-2,america,country,23
+1,india,country,15
+2,america,country,24
 3,australia,country,5
 4,antartica,continent,8
-5,assam,state,13
-6,africa,continent,15
+5,assam,state,14
+6,africa,continent,17
 7,andra pradesh,state,4
 8,indore,city,2
 9,himachal pradesh,state,10
 10,afghanistan,country,5
 11,meghalaya,state,8
-12,nagpur,city,8
-13,raipur,city,11
+12,nagpur,city,9
+13,raipur,city,12
 14,rajasthan,state,1
 15,russia,country,4
 16,mexico,country,1
-17,andaman and nicobar,union territory,10
+17,andaman and nicobar,union territory,11
 18,madhya pradesh,state,2
 19,hiroshima,city,4
 20,okinawa,city,1
 21,noida,city,1
 22,arunachal pradesh,state,10
 23,hawai,state,1
-24,aurangabad,city,6
+24,aurangabad,city,7
 25,daman and diu,union territory,13
 26,uttar pradesh,state,3
 27,illinois,state,1
-28,hyderabad,city,12
+28,hyderabad,city,13
 29,uttrakhand,state,3
 30,nagasaki,city,6
 31,switzerland,country,4
-32,uganda,country,4
+32,uganda,country,5
 33,maharashtra,state,5
-34,darjeeling,city,6
+34,darjeeling,city,7
 35,goa,state,11
 36,rome,city,3
 37,hungary,country,2
 38,norway,country,5
-39,odisha,state,3
-40,deheradun,city,8
+39,odisha,state,4
+40,deheradun,city,9
 41,england,state,9
-42,asia,continent,1
+42,asia,continent,2
 43,gurgoan,city,1
 44,yugoslavia,country,6
 45,germany,country,1
 46,yakushima,town,2
 47,himalaya,mountain,1
-48,dhaka,city,4
+48,dhaka,city,5
 49,detroit,city,2
-50,thailand,country,6
+50,thailand,country,7
 51,ukraine,country,1
 52,egypt,country,6
 53,amritsar,city,7
 54,tamil nadu,state,2
 55,haryana,state,2
-56,abu dhabi,city,3
-57,amsterdam,city,3
+56,abu dhabi,city,4
+57,amsterdam,city,4
 58,nashik,city,2
 59,ahmedabad,city,1
 60,yemen,country,1
@@ -63,22 +63,24 @@ id,word,meaning,use_count
 62,austria,country,2
 63,romania,country,1
 64,new york,state,1
-65,allahabad,city,3
+65,allahabad,city,4
 66,idaho,state,1
-67,nagaland,state,3
+67,nagaland,state,4
 68,nagoya,city,1
 69,michigan,state,1
-70,kerela,state,3
+70,kerela,state,4
 71,uttarakhand,state,1
 72,taiwan,country,1
 73,dispur,city,1
 74,dewas,city,1
 75,hawaii,state,2
-76,europe,continent,2
+76,europe,continent,3
 77,karnataka,state,1
-78,rio de janeiro,city,2
+78,rio de janeiro,city,3
 79,sendai,city,1
 80,agra,city,2
 81,denmark,country,1
-82,ajmer,city,2
-83,tennessee,state,2
+82,ajmer,city,4
+83,tennessee,state,3
+84,athens,city,1
+85,sweden,country,1
