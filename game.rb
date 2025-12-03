@@ -57,10 +57,6 @@ class Game
     @recorder
   end
 
-  def toggle_recorder
-    @recorder = !@recorder
-  end
-
   def ai_first_turn
     words = @valid_words
     words.shift # shift will remove id,word,meaning from the list

@@ -1,18 +1,18 @@
 id,word,meaning,use_count
-1,india,country,15
-2,america,country,24
+1,india,country,16
+2,america,country,25
 3,australia,country,5
-4,antartica,continent,8
-5,assam,state,14
-6,africa,continent,17
+4,antartica,continent,10
+5,assam,state,15
+6,africa,continent,19
 7,andra pradesh,state,4
 8,indore,city,2
 9,himachal pradesh,state,10
 10,afghanistan,country,5
-11,meghalaya,state,8
+11,meghalaya,state,9
 12,nagpur,city,9
-13,raipur,city,12
-14,rajasthan,state,1
+13,raipur,city,13
+14,rajasthan,state,2
 15,russia,country,4
 16,mexico,country,1
 17,andaman and nicobar,union territory,11
@@ -22,19 +22,19 @@ id,word,meaning,use_count
 21,noida,city,1
 22,arunachal pradesh,state,10
 23,hawai,state,1
-24,aurangabad,city,7
+24,aurangabad,city,8
 25,daman and diu,union territory,13
 26,uttar pradesh,state,3
 27,illinois,state,1
-28,hyderabad,city,13
+28,hyderabad,city,15
 29,uttrakhand,state,3
 30,nagasaki,city,6
-31,switzerland,country,4
-32,uganda,country,5
-33,maharashtra,state,5
+31,switzerland,country,5
+32,uganda,country,6
+33,maharashtra,state,7
 34,darjeeling,city,7
 35,goa,state,11
-36,rome,city,3
+36,rome,city,4
 37,hungary,country,2
 38,norway,country,5
 39,odisha,state,4
@@ -46,9 +46,9 @@ id,word,meaning,use_count
 45,germany,country,1
 46,yakushima,town,2
 47,himalaya,mountain,1
-48,dhaka,city,5
+48,dhaka,city,6
 49,detroit,city,2
-50,thailand,country,7
+50,thailand,country,8
 51,ukraine,country,1
 52,egypt,country,6
 53,amritsar,city,7
@@ -63,7 +63,7 @@ id,word,meaning,use_count
 62,austria,country,2
 63,romania,country,1
 64,new york,state,1
-65,allahabad,city,4
+65,allahabad,city,5
 66,idaho,state,1
 67,nagaland,state,4
 68,nagoya,city,1
@@ -78,9 +78,14 @@ id,word,meaning,use_count
 77,karnataka,state,1
 78,rio de janeiro,city,3
 79,sendai,city,1
-80,agra,city,2
+80,agra,city,3
 81,denmark,country,1
 82,ajmer,city,4
-83,tennessee,state,3
+83,tennessee,state,4
 84,athens,city,1
-85,sweden,country,1
+85,sweden,country,2
+86,shimla,city,1
+87,srinagar,city,1
+88,kolkata,city,2
+89,ethiopia,country,1
+90,nigeria,country,1
